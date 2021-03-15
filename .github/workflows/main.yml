@@ -11,11 +11,11 @@ jobs:
         os: [ubuntu-latest, windows-latest, macOS-latest]
         include:
           - os: ubuntu-latest
-            output-name: hello-linux
+            output-name: FactorialProgram-Linux
           - os: macOS-latest
-            output-name: hello-mac
+            output-name: FactorialProgram-Mac
           - os: windows-latest
-            output-name: hello-windows.exe
+            output-name: FactorialProgram-Windows
 
     steps:
       - uses: actions/checkout@v1
